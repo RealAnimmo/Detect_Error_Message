@@ -42,3 +42,10 @@ Python3 1_Preprocess_and_serialize_dataset.py
 ```
 python3 2_Predict_if_text_is_error_message_or_text.py
 ```
+
+
+
+### Performance
+
+The sentence "sorry, either you mistyped the url or we deleted that page, but let's agree to blame this on you." got successfully detected as a Error message.
+![alt text](https://i.postimg.cc/FK0TxgFr/Screenshot-2023-06-18-181049.png)
