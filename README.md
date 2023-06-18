@@ -6,11 +6,16 @@ A Python script to detect if a sentence contains a error message.
 
 This script works with the Bag-of-words algorithm to calculate how freequent and important a word is for each document.
 After creating a dataset of 84.000 lines, where 26% of the dataset contains error messages.
-The Dataset was splitted in to 2 documents/sub datasets, one containing only error messages and the other only non-error messages.
-To than calculate how likely it is that a word is more likely related to the error or non-error sub-dataset, doing that for a whole sentence.
-By that we can calculate also how likely it is that a sentence is more likely a error message or not.
-This tool pickles the needed data to be able to execute the calculation in less than 0.03 seconds.
-This tool could be integrated in Bug bounty hunting to find error messages for specific behaviour.
+The dataset is then split into two sub-datasets: one containing only error messages and the other containing non-error messages.
+This division enables the calculation of the likelihood that a word is associated with either the error or non-error sub-dataset, extending to the evaluation of entire sentences.
+As a result, the script can determine the probability that a given sentence is an error message.
+By serializing the necessary data, the tool is able to perform the calculations in less than 0.03 seconds.
+This functionality can be integrated into bug bounty hunting activities to identify error messages related to specific behaviors.
+The Dataset contains Error messages from:
+  Windows
+  Linux
+  MacOS
+  
 
 
 
@@ -48,4 +53,15 @@ python3 2_Predict_if_text_is_error_message_or_text.py
 ### Performance
 
 The sentence "sorry, either you mistyped the url or we deleted that page, but let's agree to blame this on you." got successfully detected as a Error message.
+NOTE: the number that is closer to 0 is True, in the following example Error Score: is -91 and Non-Error Score is -93 that means the script this the following message is a error message.
+
+
 ![alt text](https://i.postimg.cc/FK0TxgFr/Screenshot-2023-06-18-181049.png)
+
+
+Fraction Error Correctly Detected: 0.8691330756488128 3-cleared.csv
+
+Fraction Error Correctly Detected: 0.8759561711804837 2.csv
+
+Fraction Error Correctly Detected: 0.9509260511017981 1.csv
+
