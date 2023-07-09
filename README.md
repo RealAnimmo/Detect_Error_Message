@@ -59,7 +59,7 @@ python3 2_Predict_if_text_is_error_message_or_text.py
 
 The sentence "sorry, either you mistyped the url or we deleted that page, but let's agree to blame this on you." got successfully detected as a Error message.
 
-NOTE: the number that is closer to 0 is True, in the following example: ```Error Score: is -91``` and ```Non-Error Score is -93``` that means error score is close to 0 and this message got detected as a error message.
+NOTE: the number that is closer to 0 is True, in the following example: ```Error Score: is -91``` and ```Non-Error Score is -93``` that means Error score is close to 0 and this message got detected as a error message. The output also displays how biased each word is compared to the 2 subdatasets(Error messages, Non-Error messages), by the scores we can see that ```url``` and ```deleted``` are very biased and more related to error messages than non-error messages.
 
 
 ![alt text](https://i.postimg.cc/FK0TxgFr/Screenshot-2023-06-18-181049.png)
