@@ -54,12 +54,12 @@ python3 2_Predict_if_text_is_error_message_or_text.py
 
 The sentence "sorry, either you mistyped the url or we deleted that page, but let's agree to blame this on you." got successfully detected as a Error message.
 
-NOTE: the number that is closer to 0 is True, in the following example Error Score: is -91 and Non-Error Score is -93 that means the script this the following message is a error message.
+NOTE: the number that is closer to 0 is True, in the following example: ```Error Score: is -91``` and ```Non-Error Score is -93``` that means error score is close to 0 and this message got detected as a error message.
 
 
 ![alt text](https://i.postimg.cc/FK0TxgFr/Screenshot-2023-06-18-181049.png)
 
-
+Performance with slightly different datasets.
 Fraction Error Correctly Detected: 0.8691330756488128 3-cleared.csv
 
 Fraction Error Correctly Detected: 0.8759561711804837 2.csv
