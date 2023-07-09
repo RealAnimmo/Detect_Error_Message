@@ -1,6 +1,6 @@
 # Error Message detector
 
-A Python script to detect if a sentence contains a error message.
+This Python script is designed to identify whether a given sentence contains an error message.
 
 ## Description
 
