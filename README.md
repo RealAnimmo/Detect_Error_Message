@@ -65,6 +65,7 @@ NOTE: the number that is closer to 0 is True, in the following example: ```Error
 ![alt text](https://i.postimg.cc/FK0TxgFr/Screenshot-2023-06-18-181049.png)
 
 ### Performance with slightly different datasets
+This section provides an overview of the performance achieved by training models using slightly different datasets. By increasing and diversifying the dataset, the likelihood of words appearing in multiple datasets is enhanced. Consequently, this can lead to a shift in the bias associated with these words.
 
 Fraction Error Correctly Detected: 0.8691330756488128 3-cleared.csv
 
