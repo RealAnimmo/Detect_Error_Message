@@ -5,8 +5,8 @@ A Python script to detect if a sentence contains a error message.
 ## Description
 
 This script works with the Bag-of-words algorithm to calculate how freequent and important a word is for each document.
-After creating a dataset of 84.000 lines, where 26% of the dataset contains error messages.
-The dataset got split into two sub-datasets: one containing only error messages and the other containing non-error messages.
+After creating multiple slightly different datasets with +-84.000 lines, where +-26% of the datasets contains error messages.
+The datasets got splited into two sub-datasets: one containing only error messages and the other containing non-error messages.
 This division enables the calculation of the likelihood that a word is associated with either the error or non-error sub-dataset, extending to the evaluation of entire sentences.
 As a result, the script can determine the probability that a given sentence is an error message.
 By serializing the necessary data, the tool is able to perform the calculations in less than 0.03 seconds.
