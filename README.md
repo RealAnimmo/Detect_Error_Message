@@ -64,7 +64,7 @@ NOTE: the number that is closer to 0 is True, in the following example: ```Error
 
 ![alt text](https://i.postimg.cc/FK0TxgFr/Screenshot-2023-06-18-181049.png)
 
-###Performance with slightly different datasets.
+###Performance with slightly different datasets
 
 Fraction Error Correctly Detected: 0.8691330756488128 3-cleared.csv
 
