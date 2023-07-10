@@ -88,6 +88,7 @@ This section provides an overview of the performance and accuracy achieved by th
 
 ___Fraction Error Correctly Detected: 0.8759561711804837 TextAndErrorMessages-2_cleaned.csv___
 ___TextAndErrorMessages-2_cleaned.csv contains Error messages from:___
+
     1. Android
     2. C
     3. C#
@@ -115,6 +116,7 @@ ___TextAndErrorMessages-2_cleaned.csv contains Error messages from:___
 
 ___Fraction Error Correctly Detected: 0.9509260511017981 TextAndErrorMessages_cleaned.csv___
 ___TextAndErrorMessages_cleaned.csv contains Error messages from:___
+
     1. DB2
     2. HSQL
     3. HTTP
