@@ -83,11 +83,48 @@ NOTE: the number that is closer to 0 is True, in the following example: ```Error
 ![alt text](https://i.postimg.cc/FK0TxgFr/Screenshot-2023-06-18-181049.png)
 
 ### Performance with slightly different datasets
-This section provides an overview of the performance achieved by training models using slightly different datasets. By increasing and diversifying the dataset, the likelihood of words appearing in multiple datasets is enhanced. Consequently, this can lead to a shift in the bias associated with these words.
+This section provides an overview of the performance and accuracy achieved by the training model using both datasets. By increasing and diversifying the dataset, the likelihood of words appearing in multiple datasets is enhanced. Consequently, this can lead to a shift in the bias associated with these words.
 
-Fraction Error Correctly Detected: 0.8691330756488128 3-cleared.csv
 
-Fraction Error Correctly Detected: 0.8759561711804837 2.csv
+___Fraction Error Correctly Detected: 0.8759561711804837 TextAndErrorMessages-2_cleaned.csv___
+___TextAndErrorMessages-2_cleaned.csv contains Error messages from:___
+    1. Android
+    2. C
+    3. C#
+    4. COBOL
+    5. DB2
+    6. Firebase
+    7. HPWorkstation
+    8. HSQL
+    9. HTTP
+    10. Java
+    11. Javascript
+    12. Linux
+    13. MacOs
+    14. MySQL
+    15. Oracle
+    16. Perl
+    17. PHP
+    18. Pointbase
+    19. PostgreSQL
+    20. Python
+    21. Solaris
+    22. SQLServer
+    23. Sybase
+    24. Windows
 
-Fraction Error Correctly Detected: 0.9509260511017981 1.csv
-
+___Fraction Error Correctly Detected: 0.9509260511017981 TextAndErrorMessages_cleaned.csv___
+___TextAndErrorMessages_cleaned.csv contains Error messages from:___
+    1. DB2
+    2. HSQL
+    3. HTTP
+    4. Javascript
+    5. Linux
+    6. MySQL
+    7. Oracle
+    8. PHP
+    9. Pointbase
+    10. PostgreSQL
+    11. SQLServer
+    12. Sybase
+    13. Windows
