@@ -66,6 +66,8 @@ This section provides an overview of the performance and accuracy achieved by th
 
 Meaning that this model predicted for 87% the right answers while testing thousands of neverseen sentences.
 
+TextAndErrorMessages-2_cleaned.csv has 114.384 lines in total, of which are 82.140 / 72% WebsiteText and 32.244 / 28% ErrorMessages.
+
 TextAndErrorMessages-2_cleaned.csv contains Error messages from:
 
     1. Android
@@ -101,6 +103,8 @@ TextAndErrorMessages-2_cleaned.csv contains Error messages from:
 #### TextAndErrorMessages_cleaned.csv Fraction Error Correctly Detected: 0.9509260511017981
 
 Meaning that this model predicted for 95% the right answers while testing thousands of neverseen sentences.
+
+TextAndErrorMessages_cleaned.csv has 84.052 lines in total, of which are 59.591 / 71% WebsiteText and 24.461 / 29% ErrorMessages.
 
 TextAndErrorMessages_cleaned.csv contains Error messages from:
 
