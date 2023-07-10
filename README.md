@@ -12,32 +12,6 @@ As a result, the script can determine the probability that a given sentence is a
 By serializing the necessary data, the tool is able to perform the calculations in less than 0.03 seconds.
 This functionality can be integrated into bug bounty hunting activities to identify error messages related to specific behaviors.
 
-### The Datasets contains Error messages from:
-
-    Android
-    C
-    C#
-    COBOL
-    DB2
-    Firebase
-    HPWorkstation
-    HSQL
-    HTTP
-    Java
-    Javascript
-    Linux
-    MacOs
-    MySQL
-    Oracle
-    Perl
-    PHP
-    Pointbase
-    PostgreSQL
-    Python
-    Solaris
-    SQLServer
-    Sybase
-    Windows
     
 
 
@@ -73,7 +47,7 @@ python3 2_Predict_if_text_is_error_message_or_text.py
 
 
 
-### Performance
+## Performance
 
 The sentence "sorry, either you mistyped the url or we deleted that page, but let's agree to blame this on you." got successfully detected as a Error message.
 
@@ -86,11 +60,11 @@ NOTE: the number that is closer to 0 is True, in the following example: ```Error
 This section provides an overview of the performance and accuracy achieved by the training model using both datasets. By increasing and diversifying the dataset, the likelihood of words appearing in multiple datasets is enhanced. Consequently, this can lead to a shift in the bias associated with these words.
 
 
-___TextAndErrorMessages-2_cleaned.csv Fraction Error Correctly Detected: 0.8759561711804837___
+#### TextAndErrorMessages-2_cleaned.csv Fraction Error Correctly Detected: 0.8759561711804837
 
 Meaning that this model predicted for 87% the right answers while testing thousands of neverseen sentences.
 
-___TextAndErrorMessages-2_cleaned.csv contains Error messages from:___
+TextAndErrorMessages-2_cleaned.csv contains Error messages from:
 
     1. Android
     2. C
@@ -126,7 +100,7 @@ ___TextAndErrorMessages_cleaned.csv Fraction Error Correctly Detected: 0.9509260
 
 Meaning that this model predicted for 95% the right answers while testing thousands of neverseen sentences.
 
-___TextAndErrorMessages_cleaned.csv contains Error messages from:___
+TextAndErrorMessages_cleaned.csv contains Error messages from:
 
     1. DB2
     2. HSQL
