@@ -61,7 +61,8 @@ NOTE: the number that is closer to 0 is True, in the following example: ```Error
 ### Performance with slightly different datasets
 This section provides an overview of the performance and accuracy achieved by the training model using both datasets. By increasing and diversifying the dataset, the likelihood of words appearing in multiple datasets is enhanced. Consequently, this can lead to a shift in the bias associated with these words.
 
-
+<br />
+<br />
 #### TextAndErrorMessages-2_cleaned.csv Fraction Error Correctly Detected: 0.8759561711804837
 
 Meaning that this model predicted for 87% the right answers while testing thousands of neverseen sentences.
