@@ -36,13 +36,13 @@ This functionality can be integrated into bug bounty hunting activities to ident
 
 ### Executing program
 
-* Start to build the pickled object with the 1_Preprocess_and_serialize_dataset.py
+* Start to build the pickled object with the ___1_Preprocess_and_serialize_dataset.py___
 
 NOTE: at line 11 in 1_Preprocess_and_serialize_dataset.py you have to specify the name of the unziped csv dataset file.
 ```
 Python3 1_Preprocess_and_serialize_dataset.py
 ```
-* Now you can change the error message in the second last line of 2_Predict_if_text_is_error_message_or_text.py where the function predict_text() gets called.
+* Now you can change the error message in the second last line of ___2_Predict_if_text_is_error_message_or_text.py___ where the function ___predict_text()___ gets called.
 ```
 python3 2_Predict_if_text_is_error_message_or_text.py
 ```
@@ -51,7 +51,7 @@ python3 2_Predict_if_text_is_error_message_or_text.py
 
 ## Performance
 
-The sentence "sorry, either you mistyped the url or we deleted that page, but let's agree to blame this on you." got successfully detected as a Error message.
+The sentence ___"sorry, either you mistyped the url or we deleted that page, but let's agree to blame this on you."___ got successfully detected as a Error message.
 
 NOTE: the number that is closer to 0 is True, in the following example: ```Error Score: is -91``` and ```Non-Error Score is -93``` that means Error score is close to 0 and this message got detected as a error message. The output also displays how biased each word is compared to the 2 subdatasets(Error messages, Non-Error messages), by the scores we can see that ```url``` and ```deleted``` are very biased and more related to error messages than non-error messages.
 
