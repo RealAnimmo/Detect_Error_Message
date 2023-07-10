@@ -95,10 +95,8 @@ TextAndErrorMessages-2_cleaned.csv contains Error messages from:
     23. Sybase
     24. Windows
 
-
-
-
-
+<br />
+<br />
 
 #### TextAndErrorMessages_cleaned.csv Fraction Error Correctly Detected: 0.9509260511017981
 
