@@ -31,7 +31,7 @@ This functionality can be integrated into bug bounty hunting activities to ident
 ### Installing
 
 * python3 -m pip install -r requirements.txt
-* Unzip TextAndErrorMessages-3.7z
+* Unzip TextAndErrorMessages-2_cleaned.7z or TextAndErrorMessages_cleaned.7z
 
 
 ### Executing program
