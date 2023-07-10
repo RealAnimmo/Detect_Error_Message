@@ -13,13 +13,27 @@ By serializing the necessary data, the tool is able to perform the calculations 
 This functionality can be integrated into bug bounty hunting activities to identify error messages related to specific behaviors.
 The Dataset contains Error messages from:
 
-  Windows
+ * Windows
   
-  Linux
+ * Linux
   
-  MacOS
+ * MacOS
   
-  Multiple different SQL Databases
+ * Multiple different SQL Databases
+  
+ * DB2
+  
+ * HTTP
+  
+ * Javascript
+  
+ * Oracle
+  
+ * PHP
+  
+ * Pointbase
+  
+ * Sybase
   
 
 
