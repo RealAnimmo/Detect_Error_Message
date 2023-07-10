@@ -87,7 +87,7 @@ This section provides an overview of the performance and accuracy achieved by th
 
 
 ___Fraction Error Correctly Detected: 0.8759561711804837 TextAndErrorMessages-2_cleaned.csv___
-
+Meaning that this model predicted for 87% the right answers while testing thousands of neverseen sentences.
 ___TextAndErrorMessages-2_cleaned.csv contains Error messages from:___
 
     1. Android
@@ -116,7 +116,7 @@ ___TextAndErrorMessages-2_cleaned.csv contains Error messages from:___
     24. Windows
 
 ___Fraction Error Correctly Detected: 0.9509260511017981 TextAndErrorMessages_cleaned.csv___
-
+Meaning that this model predicted for 95% the right answers while testing thousands of neverseen sentences.
 ___TextAndErrorMessages_cleaned.csv contains Error messages from:___
 
     1. DB2
