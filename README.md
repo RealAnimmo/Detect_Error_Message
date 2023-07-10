@@ -38,7 +38,7 @@ This functionality can be integrated into bug bounty hunting activities to ident
 
 * Start to build the pickled object with the ___1_Preprocess_and_serialize_dataset.py___
 
-NOTE: at line 11 in 1_Preprocess_and_serialize_dataset.py you have to specify the name of the unziped csv dataset file.
+NOTE: at line 11 in ___1_Preprocess_and_serialize_dataset.py___ you have to specify the name of the unziped csv dataset file.
 ```
 Python3 1_Preprocess_and_serialize_dataset.py
 ```
