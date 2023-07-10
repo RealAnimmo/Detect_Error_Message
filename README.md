@@ -15,51 +15,28 @@ This functionality can be integrated into bug bounty hunting activities to ident
 # The Datasets contains Error messages from:
 
     Android
-    
     C
-    
     C#
-    
     COBOL
-    
     DB2
-    
     Firebase
-    
     HPWorkstation
-    
     HSQL
-    
     HTTP
-    
     Java
-    
     Javascript
-    
     Linux
-    
     MacOs
-    
     MySQL
-    
     Oracle
-    
     Perl
-    
     PHP
-    
     Pointbase
-    
     PostgreSQL
-    
     Python
-    
     Solaris
-    
     SQLServer
-    
     Sybase
-    
     Windows
     
 
